@@ -1,0 +1,142 @@
+.titulos {
+    color: white;
+    height: 250px;
+}
+
+.background1 {
+    background-color: black;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw;
+
+}
+
+.todo {
+    width: 100%;
+    height: 100vh;
+}
+
+.characters2 {
+    width: 80%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+.all {
+    width: 40%;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.ol {
+    width: 80%;
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    overflow-y: scroll;
+}
+.ol::-webkit-scrollbar {
+    width: 2px;
+    scrollbar-width: thin;
+
+}
+
+.ol::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+
+.imges {
+height: 220px;
+
+}
+
+.name {
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.li{
+    width: 100%;
+    text-align: center;
+}
+
+.lili {
+    padding-bottom: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    overflow-y: scroll;
+    font-size: 14px;
+    list-style: none;
+    text-align: center;
+
+}
+
+.lili::-webkit-scrollbar {
+    width: 2px;
+    scrollbar-width: thin;
+
+}
+
+.lili::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+.ul {
+    font-size: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.scroll {
+    overflow-y: scroll;
+    height: 150px;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 2px;
+    scrollbar-width: thin;
+
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+
+.back {
+    color: white;
+}
+
+.casa{
+    height: 150px;
+}
+
+.h2{
+    font-size: 20px;;
+}

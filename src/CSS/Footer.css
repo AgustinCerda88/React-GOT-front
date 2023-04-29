@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+}
+
+.footer_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-size: 30px;
+}

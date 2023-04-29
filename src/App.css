@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+@keyframes identifier {
+  
+}
+
+@font-face {
+  font-family: "gameThrones";
+  src: url("./assets/Game_of_Thrones.ttf") format("truetype");
+}
