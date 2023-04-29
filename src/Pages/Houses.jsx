@@ -26,7 +26,7 @@ const Houses = ({ house }) => {
               <div className="this">
                 <img
                   className="img"
-                  src={"https://react-got-back.vercel.app/" + houses.image}
+                  src={houses.image}
                   alt={houses.name}
                 />
                 <h4 className="h3">{houses.name}</h4>

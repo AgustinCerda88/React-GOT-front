@@ -7,6 +7,7 @@ const Characters = ({ char }) => {
 
   const [showName, setShowName] = useState(null);
   const [pers, setPers] = useState("");
+  
 
   const onSearch = (value) => {
     setPers(value);
