@@ -14,7 +14,7 @@ const Header = ({ onSearch }) => {
       {(location.pathname === "/houses" ||
         location.pathname === "/characters") && (
         <div>
-          <input
+          <input style={{ cursor: "pointer" }}
             onKeyUp={(event) => onSearch(event.target.value)}
             className="input"
             type="text"
@@ -23,14 +23,14 @@ const Header = ({ onSearch }) => {
         </div>
       )}
       {location.pathname.indexOf("/charactersdetail") >= 0 && (
-        <Link to="/characters" className="link">
+        <Link  style={{ cursor: "pointer" }} to="/characters" className="link">
           <div>
             <p className="back">← {t('back')}</p>
           </div>
         </Link>
       )}
       {location.pathname.indexOf("/housesdetail") >= 0 && (
-        <Link to="/houses" className="link">
+        <Link style={{ cursor: "pointer" }} to="/houses" className="link">
           <div>
             <p className="back">← {t('back')}</p>
           </div>
@@ -40,14 +40,14 @@ const Header = ({ onSearch }) => {
       <div className="header_box">
         {location.pathname !== "/" && (
           <Link to="/" className="link">
-            <img
+            <img 
               className="logo"
               src="https://www.seekpng.com/png/full/375-3752606_homepage-icon-house-logo-png-white.png"
               alt=""
             />
           </Link>
         )}
-        <button
+        <button style={{ cursor: "pointer" }}
           onClick={() => i18n.changeLanguage("es")}
           className="button_band"
         >
@@ -57,7 +57,7 @@ const Header = ({ onSearch }) => {
             alt="spanish"
           />
         </button>
-        <button
+        <button style={{ cursor: "pointer" }}
           onClick={() => i18n.changeLanguage("en")}
           className="button_band"
         >
